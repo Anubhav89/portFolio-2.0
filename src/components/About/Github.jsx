@@ -11,7 +11,7 @@ function Github(){
             <GitHubCalendar
                 username="Anubhav89"
                 blockMargin={5}
-                blockMargin={15}
+                blockSize={15}
                 color = "#c084f5"
                 fontSize={10}
             />

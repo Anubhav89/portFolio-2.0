@@ -1,4 +1,4 @@
-import react from "@vitejs/plugin-react-swc";
+import react from "react"
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
