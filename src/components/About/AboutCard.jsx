@@ -1,4 +1,4 @@
-import react from "react"
+import react from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
@@ -30,7 +30,7 @@ function AbourCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Each of us can make a difference. Together we make change."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Anubhav</footer>
         </blockquote>
       </Card.Body>
     </Card>
