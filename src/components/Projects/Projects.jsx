@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import parkandgo from "../../assets/projectpics/parkandgo.png";
-import portfolio from "../../assets/projectpics/portFolio.png";
-import wokeye from "../../assets/projectpics/wokeye.png";
-import emart from "../../assets/projectpics/e-mart.png";
-import loruki from "../../assets/projectpics/loruki.png";
+import parkandgo from "../../assets/parkandgo.png";
+import portfolio from "../../assets/portFolio.png";
+import wokeye from "../../assets/wokeye.png";
+import emart from "../../assets/e-mart.png";
+import loruki from "../../assets/loruki.png";
 
 function Projects() {
   return (
