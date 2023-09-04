@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
@@ -20,14 +20,14 @@ function ProjectCards(props) {
         {"\n"}
         {"\n"}
 
-        {props.isBlog && props.demoLink && (
+        {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
             href={props.demoLink}
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
-            <CgWebsite /> &nbsp
+            <CgWebsite /> &nbsp;
             {"Demo"}
           </Button>
         )}
