@@ -41,7 +41,7 @@ function Projects() {
               demoLink="https://ecommerce-mart.netlify.app/"
             />
           </Col>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={parkandgo}
               isBlog={false}
@@ -50,7 +50,7 @@ function Projects() {
               ghLink="https://github.com/Anubhav89/ParkAndGo"
               demoLink="https://parkandgo.netlify.app/"
             />
-          </Col>
+          </Col> */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={wokeye}
