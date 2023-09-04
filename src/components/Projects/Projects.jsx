@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import parkandgo from "../../assets/parkandgo.png";
-import portfolio from "../../assets/portFolio.png";
-import wokeye from "../../assets/wokeye.png";
-import emart from "../../assets/e-mart.png";
-import loruki from "../../assets/loruki.png";
+// import parkandgo from "../../assets/parkandgo.png";
+// import portfolio from "../../assets/portFolio.png";
+// import wokeye from "../../assets/wokeye.png";
+// import emart from "../../assets/e-mart.png";
+import loruki from "../../assets/loruki.svg";
 
 function Projects() {
   return (
@@ -20,7 +20,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={portfolio}
               isBlog={false}
@@ -59,7 +59,7 @@ function Projects() {
               ghLink="https://github.com/Anubhav89/wokeye"
               demoLink="https://wokeye.netlify.app/login"
             />
-          </Col>
+          </Col> */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={loruki}
