@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import parkandgo from "../../Assets/Projects/parkandgo.png";
+import parkandgo from "../../assets/Projects/parkandgo.png";
 import portfolio from "../../assets/Projects/portFolio.png";
 import wokeye from "../../assets/Projects/wokeye.png";
 import emart from "../../assets/Projects/e-mart.png";
