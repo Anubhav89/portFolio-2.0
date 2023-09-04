@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import parkandgo from "../../assets/Projects/parkandgo.png";
-// import parkandgo from "../../assets/Projects/parkandgo.png";
-import portfolio from "../../assets/Projects/portFolio.png";
-import wokeye from "../../assets/Projects/wokeye.png";
-import emart from "../../assets/Projects/e-mart.png";
-import loruki from "../../assets/Projects/loruki.png";
+import parkandgo from "../../assets/projectpics/parkandgo.png";
+import portfolio from "../../assets/projectpics/portFolio.png";
+import wokeye from "../../assets/projectpics/wokeye.png";
+import emart from "../../assets/projectpics/e-mart.png";
+import loruki from "../../assets/projectpics/loruki.png";
 
 function Projects() {
   return (
@@ -41,7 +40,7 @@ function Projects() {
               demoLink="https://ecommerce-mart.netlify.app/"
             />
           </Col>
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={parkandgo}
               isBlog={false}
@@ -50,7 +49,7 @@ function Projects() {
               ghLink="https://github.com/Anubhav89/ParkAndGo"
               demoLink="https://parkandgo.netlify.app/"
             />
-          </Col> */}
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={wokeye}
