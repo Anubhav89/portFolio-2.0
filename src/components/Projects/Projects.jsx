@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import parkandgo from "../../assets/parkandgo.svg";
-import portfolio from "../../assets/portFolio.svg";
+import portfolio from "../../assets/portfolio.svg";
 import wokeye from "../../assets/wokeye.svg";
 import emart from "../../assets/emart.svg";
 import loruki from "../../assets/loruki.svg";
