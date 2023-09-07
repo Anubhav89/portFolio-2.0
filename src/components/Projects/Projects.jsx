@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import parkandgo from "../../assets/parkandgo.png";
-// import portfolio from "../../assets/portFolio.png";
-// import wokeye from "../../assets/wokeye.png";
-// import emart from "../../assets/e-mart.png";
+import parkandgo from "../../assets/parkandgo.svg";
+import portfolio from "../../assets/portFolio.svg";
+import wokeye from "../../assets/wokeye.svg";
+import emart from "../../assets/emart.svg";
 import loruki from "../../assets/loruki.svg";
 
 function Projects() {
@@ -20,7 +20,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={portfolio}
               isBlog={false}
@@ -59,7 +59,7 @@ function Projects() {
               ghLink="https://github.com/Anubhav89/wokeye"
               demoLink="https://wokeye.netlify.app/login"
             />
-          </Col> */}
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={loruki}
@@ -67,7 +67,7 @@ function Projects() {
               title="Loruki"
               description="A clone of deployment sites where we can deploy web apps of all kinds, from large scale enterprise APIs to static websites for individuals. Fill out the form to try a demo of our platform"
               ghLink="https://github.com/Anubhav89/Loruki-website"
-              demoLink="tourmaline-cannoli-5d941b.netlify.app"
+              demoLink="https://tourmaline-cannoli-5d941b.netlify.app/"
             />
           </Col>
         </Row>
