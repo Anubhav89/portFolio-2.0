@@ -23,14 +23,14 @@ function Home2() {
                 I have developed a strong interest in programming, and I believe
                 that I have learned at least a few things from it.
                 <br />
-                <br /> II am proficient in the foundational languages of web
+                <br /> I am proficient in the foundational languages of web
                 development
                 <i>
                   <b className="purple"> C++, CSS and JavaScript.</b>
                 </i>
                 <br />
                 <br />
-                II'm enthusiastic about innovating in &nbsp;
+                I'm enthusiastic about innovating in &nbsp;
                 <i>
                   <b className="purple">
                     {" "}

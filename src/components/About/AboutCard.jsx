@@ -8,7 +8,7 @@ function AbourCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Anubhav Bajpai</span>
+            Hi Everyone, I am <span className="purple">Anubhav Bajpai </span>
             from <span className="purple">Kanpur, India.</span>
             <br />I am a final year student pursing Bachelor of Technology in
             Computer Science and Engineering at SRM Institute of Science and
